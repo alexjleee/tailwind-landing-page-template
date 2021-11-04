@@ -14,6 +14,7 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
+import AboutMe from './pages/AboutMe';
 
 function App() {
 
@@ -40,6 +41,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/aboutme">
+          <AboutMe />
         </Route>
         <Route path="/signin">
           <SignIn />
